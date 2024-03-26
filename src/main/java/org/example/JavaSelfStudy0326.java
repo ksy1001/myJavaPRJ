@@ -7,7 +7,7 @@ public class JavaSelfStudy0326 {
         String name, addr;
         int weight;
 
-        System.out.println("택바 보내기 입니다. 다음을 각각 입력하세요 ##");
+        System.out.println("택배 보내기 입니다. 다음을 각각 입력하세요 ##");
 
         System.out.print("받는 사람 : ");
         name = s.nextLine();
