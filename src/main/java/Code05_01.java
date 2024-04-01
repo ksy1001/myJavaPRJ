@@ -8,8 +8,8 @@ public class Code05_01 {
 
         if (a < 100){
             System.out.print("100보다 ");
-        System.out.println("작군요.");}
-        else
+        System.out.println("작군요.");
+        } else
             System.out.println("100보다 크군요.");
         s.close();
     }
