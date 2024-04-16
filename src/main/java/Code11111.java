@@ -21,6 +21,8 @@ public class Code11111 {
             }
         }else {
             System.out.println("a와 b가 같습니다. 다시 입력해주세요");
+            return;
+
         }
         System.out.println(hap);
         s.close();
