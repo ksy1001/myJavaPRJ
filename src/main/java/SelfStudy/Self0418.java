@@ -20,6 +20,7 @@ public class Self0418 {
                 }
             }
             sc.close();
+
         }
     }
 
