@@ -1,15 +1,10 @@
 public class Code04_13 {
     public static void main(String[]args){
         String str = " 한글  ABCD efgh  ";
-        String cuStr = "";
-        String upper = "";
-        String lower = "";
-        String allStr = "";
-
-        cuStr = str.trim();
-        upper = str.toUpperCase();
-        lower = str.toLowerCase();
-        allStr = str.replaceAll(" ", "");
+        String cuStr = str.trim();
+        String upper = str.toUpperCase();
+        String lower = str.toLowerCase();
+        String allStr = str.replaceAll(" ", "");
 
 
         System.out.println("기존 문자열 ==> [" + str + "]");
