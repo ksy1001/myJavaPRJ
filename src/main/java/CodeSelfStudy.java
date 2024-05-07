@@ -1,4 +1,4 @@
-public class CodeSeofStudy {
+public class CodeSelfStudy {
     public static void main(String[] args){
         int num;
         num = 100;

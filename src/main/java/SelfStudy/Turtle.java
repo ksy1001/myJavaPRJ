@@ -1,3 +1,5 @@
+package SelfStudy;
+
 /**AUTHOR: NICHOLAS SEWARD
  * EMAIL: nicholas.seward@gmail.com
  * LICENSE: MIT (USE THIS HOWEVER YOU SEE FIT.)
@@ -13,16 +15,22 @@
  *    U U      U U      U U      U U      U U      U U      U U      U U
  */
 
-import java.awt.event.*;
+import javax.imageio.ImageIO;
 import javax.swing.*;
+import javax.swing.filechooser.FileNameExtensionFilter;
 import java.awt.*;
-import java.awt.geom.*;
-import java.awt.image.*;
-import java.io.*;
+import java.awt.event.*;
+import java.awt.geom.AffineTransform;
+import java.awt.geom.GeneralPath;
+import java.awt.geom.Point2D;
+import java.awt.image.BufferedImage;
+import java.awt.image.DirectColorModel;
+import java.awt.image.WritableRaster;
+import java.io.ByteArrayInputStream;
+import java.io.File;
+import java.io.PrintWriter;
 import java.lang.reflect.Method;
 import java.util.*;
-import javax.imageio.ImageIO;
-import javax.swing.filechooser.FileNameExtensionFilter;
 
 /**
  * Turtle is a selfcontained class that will allow students to make

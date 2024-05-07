@@ -8,7 +8,7 @@ public class JavaQuiz0409_3 {
         System.out.print("두번째 숫자를 입력하세요 ==>");
         int b = s.nextInt();
 
-        if (a > b)
+        if (a < b)
         {
             for (int i = a; i <= b; i++) {
                 if (i % 3 == 0) {
@@ -16,7 +16,6 @@ public class JavaQuiz0409_3 {
                 }
             }
         }
-
 
         else
         {
